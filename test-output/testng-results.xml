@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="72546" started-at="2016-04-03T03:30:52Z" finished-at="2016-04-03T03:32:05Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="72546" started-at="2016-04-03T03:30:52Z" finished-at="2016-04-03T03:32:05Z">
+      <class name="testcases.TC02_CreateLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="beforeSuite" is-config="true" duration-ms="1373" started-at="2016-04-03T09:00:51Z" finished-at="2016-04-03T09:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-04-03T09:00:52Z" finished-at="2016-04-03T09:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-04-03T09:00:52Z" finished-at="2016-04-03T09:00:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="beforeMethod" is-config="true" duration-ms="29467" started-at="2016-04-03T09:00:54Z" finished-at="2016-04-03T09:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="CreateLead" duration-ms="34836" started-at="2016-04-03T09:01:24Z" data-provider="fetchData" finished-at="2016-04-03T09:01:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[VZ]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shrav]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Direct Mail]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Automobile]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[rajasekar@cherry.com]]>
+              </value>
+            </param>
+            <param index="8">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="afterMethod" is-config="true" duration-ms="5871" started-at="2016-04-03T09:01:59Z" finished-at="2016-04-03T09:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-04-03T09:02:05Z" finished-at="2016-04-03T09:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="afterSuite" is-config="true" duration-ms="2434" started-at="2016-04-03T09:02:06Z" finished-at="2016-04-03T09:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC02_CreateLead -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,29 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="72546" started-at="2016-04-03T03:30:52Z" finished-at="2016-04-03T03:32:05Z">
+  <suite name="OpenTapsSuite" duration-ms="644694" started-at="2016-04-03T14:02:40Z" finished-at="2016-04-03T14:13:25Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="72546" started-at="2016-04-03T03:30:52Z" finished-at="2016-04-03T03:32:05Z">
-      <class name="testcases.TC02_CreateLead">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="beforeSuite" is-config="true" duration-ms="1373" started-at="2016-04-03T09:00:51Z" finished-at="2016-04-03T09:00:52Z">
+    <test name="OpenTapsLeads" duration-ms="644694" started-at="2016-04-03T14:02:40Z" finished-at="2016-04-03T14:13:25Z">
+      <class name="testcases.TC001_Login">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC001_Login@df4efb]" name="beforeSuite" is-config="true" duration-ms="211" started-at="2016-04-03T19:32:40Z" finished-at="2016-04-03T19:32:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-04-03T09:00:52Z" finished-at="2016-04-03T09:00:52Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testcases.TC001_Login@df4efb]" name="beforeTest" is-config="true" duration-ms="0" started-at="2016-04-03T19:32:40Z" finished-at="2016-04-03T19:32:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-04-03T09:00:52Z" finished-at="2016-04-03T09:00:52Z">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC001_Login@df4efb]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-04-03T19:32:40Z" finished-at="2016-04-03T19:32:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTestCase -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="beforeMethod" is-config="true" duration-ms="29467" started-at="2016-04-03T09:00:54Z" finished-at="2016-04-03T09:01:24Z">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_Login@df4efb]" name="beforeMethod" is-config="true" duration-ms="22118" started-at="2016-04-03T19:32:41Z" finished-at="2016-04-03T19:33:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="CreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="CreateLead" duration-ms="34836" started-at="2016-04-03T09:01:24Z" data-provider="fetchData" finished-at="2016-04-03T09:01:59Z">
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Login@df4efb]" name="login" duration-ms="13636" started-at="2016-04-03T19:33:03Z" data-provider="fetchData" finished-at="2016-04-03T19:33:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_Login@df4efb]" name="afterMethod" is-config="true" duration-ms="2604" started-at="2016-04-03T19:33:17Z" finished-at="2016-04-03T19:33:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC001_Login@df4efb]" name="beforeMethod" is-config="true" duration-ms="11364" started-at="2016-04-03T19:33:20Z" finished-at="2016-04-03T19:33:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:testcases.TC001_Login@df4efb]" name="login" duration-ms="10883" started-at="2016-04-03T19:33:31Z" data-provider="fetchData" finished-at="2016-04-03T19:33:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoCSR]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC001_Login@df4efb]" name="afterMethod" is-config="true" duration-ms="2212" started-at="2016-04-03T19:33:42Z" finished-at="2016-04-03T19:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC001_Login@df4efb]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-04-03T19:43:25Z" finished-at="2016-04-03T19:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC001_Login@df4efb]" name="afterSuite" is-config="true" duration-ms="624" started-at="2016-04-03T19:43:25Z" finished-at="2016-04-03T19:43:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC001_Login -->
+      <class name="testcases.TC02_CreateLead">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC02_CreateLead@17a2457]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-04-03T19:33:44Z" finished-at="2016-04-03T19:33:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC02_CreateLead@17a2457]" name="beforeMethod" is-config="true" duration-ms="31193" started-at="2016-04-03T19:33:44Z" finished-at="2016-04-03T19:34:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC02_CreateLead@17a2457]" name="CreateLead" duration-ms="65593" started-at="2016-04-03T19:34:15Z" data-provider="fetchData" finished-at="2016-04-03T19:35:21Z">
           <params>
             <param index="0">
               <value>
@@ -66,25 +128,144 @@
               </value>
             </param>
             <param index="8">
-              <value is-null="true"/>
+              <value>
+                <![CDATA[6666666666]]>
+              </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateLead -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="afterMethod" is-config="true" duration-ms="5871" started-at="2016-04-03T09:01:59Z" finished-at="2016-04-03T09:02:05Z">
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC02_CreateLead@17a2457]" name="afterMethod" is-config="true" duration-ms="1733" started-at="2016-04-03T19:35:21Z" finished-at="2016-04-03T19:35:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="afterTest" is-config="true" duration-ms="0" started-at="2016-04-03T09:02:05Z" finished-at="2016-04-03T09:02:05Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC02_CreateLead@ac6e3]" name="afterSuite" is-config="true" duration-ms="2434" started-at="2016-04-03T09:02:06Z" finished-at="2016-04-03T09:02:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
       </class> <!-- testcases.TC02_CreateLead -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testcases.TC05_MergeLead">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC05_MergeLead@154909b]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-04-03T19:40:49Z" finished-at="2016-04-03T19:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC05_MergeLead@154909b]" name="beforeMethod" is-config="true" duration-ms="36638" started-at="2016-04-03T19:40:49Z" finished-at="2016-04-03T19:41:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="CreateLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC05_MergeLead@154909b]" name="CreateLead" duration-ms="117315" started-at="2016-04-03T19:41:26Z" data-provider="fetchData" finished-at="2016-04-03T19:43:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10056]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10057]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC05_MergeLead@154909b]" name="afterMethod" is-config="true" duration-ms="1752" started-at="2016-04-03T19:43:23Z" finished-at="2016-04-03T19:43:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC05_MergeLead -->
+      <class name="testcases.TC03_EditLead">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC03_EditLead@6776ad]" name="startTestCase" is-config="true" duration-ms="4" started-at="2016-04-03T19:35:23Z" finished-at="2016-04-03T19:35:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC03_EditLead@6776ad]" name="beforeMethod" is-config="true" duration-ms="18719" started-at="2016-04-03T19:35:23Z" finished-at="2016-04-03T19:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="editLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC03_EditLead@6776ad]" name="editLead" duration-ms="178028" started-at="2016-04-03T19:35:41Z" data-provider="fetchData" finished-at="2016-04-03T19:38:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6666666666]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[TCS]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sankar]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[karthik]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC03_EditLead@6776ad]" name="afterMethod" is-config="true" duration-ms="1694" started-at="2016-04-03T19:38:40Z" finished-at="2016-04-03T19:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC03_EditLead -->
+      <class name="testcases.TC04_DeleteLead">
+        <test-method status="PASS" signature="startTestCase()[pri:0, instance:testcases.TC04_DeleteLead@108b2d7]" name="startTestCase" is-config="true" duration-ms="0" started-at="2016-04-03T19:38:41Z" finished-at="2016-04-03T19:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTestCase -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC04_DeleteLead@108b2d7]" name="beforeMethod" is-config="true" duration-ms="16754" started-at="2016-04-03T19:38:41Z" finished-at="2016-04-03T19:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="DeleteLead(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC04_DeleteLead@108b2d7]" name="DeleteLead" duration-ms="108396" started-at="2016-04-03T19:38:58Z" data-provider="fetchData" finished-at="2016-04-03T19:40:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[6666666666]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC04_DeleteLead@108b2d7]" name="afterMethod" is-config="true" duration-ms="2883" started-at="2016-04-03T19:40:46Z" finished-at="2016-04-03T19:40:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testcases.TC04_DeleteLead -->
+    </test> <!-- OpenTapsLeads -->
+  </suite> <!-- OpenTapsSuite -->
 </testng-results>

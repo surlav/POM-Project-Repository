@@ -394,7 +394,7 @@ public class GenericWrappers {
 		}
 	}
 
-	public void enterById(String id, String dataToEnter) {
+	public void enterById1(String id, String dataToEnter) {
 		// TODO Auto-generated method stub
 		try {
 			driver.findElementById(id).clear();
@@ -409,7 +409,7 @@ public class GenericWrappers {
 		}
 	}
 
-	public void clickByClassName(String className) {
+	public void clickByClassName1(String className) {
 		// TODO Auto-generated method stub
 		try {
 			driver.findElement(By.className(className)).click();
@@ -422,7 +422,7 @@ public class GenericWrappers {
 		}
 	}
 
-	public void verifyTitle(String expectedTitle) {
+	public void verifyTitle1(String expectedTitle) {
 		// TODO Auto-generated method stub
 		try {
 			if(driver.getTitle().equals(expectedTitle)) {
@@ -443,7 +443,7 @@ public class GenericWrappers {
 		// TODO Auto-generated method stub
 		try {
 			if(!driver.findElementByLinkText(linktext).isDisplayed()) {
-				System.out.println("The link is not available");
+				System.out.println("The link is available");
 
 			}else {
 				System.out.println("The link is not available");
@@ -454,7 +454,6 @@ public class GenericWrappers {
 		}finally{
 			takeSnap();
 		}
-		
 		
 		
 		
@@ -593,7 +592,7 @@ public class GenericWrappers {
 		}
 	}
 	
-	public void verifyTextByXpath(String textXpath,String expectedText) {
+	public void verifyTextByXpath1(String textXpath,String expectedText) {
 		// TODO Auto-generated method stub
 		try {
 			if(driver.findElementByXPath(textXpath).getText().equals(expectedText))
@@ -620,7 +619,7 @@ public class GenericWrappers {
 		}
 	}
 	
-	public void clickByName(String name) {
+	public void clickByName1(String name) {
 		// TODO Auto-generated method stub
 		try {
 			driver.findElementByName(name).click();
@@ -632,7 +631,7 @@ public class GenericWrappers {
 			takeSnap();
 		}
 	}
-	public void clickByXpath(String clickableXpath) {
+	public void clickByXpath1(String clickableXpath) {
 		// TODO Auto-generated method stub
 		try {
 			driver.findElementByXPath(clickableXpath).click();
@@ -853,6 +852,13 @@ public class GenericWrappers {
 	}
 
 
-
+	public void sleep(int time) {
+		try {
+			Thread.sleep(time);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
 }
 

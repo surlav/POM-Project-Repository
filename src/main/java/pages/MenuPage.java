@@ -9,10 +9,10 @@ public class MenuPage extends OpentapsWrappers{
 		return new LeadsPage();
 	}
 
-	/*public LoginPage clickLeadsTab(){
+	public LeadMainPage clickLeadsTab(){
 		clickByLinkText("Leads");
-		return new LoginPage();
-	}*/
+		return new LeadMainPage();
+	}
 
 	
 

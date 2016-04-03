@@ -1,0 +1,11 @@
+<suite name="OpenTapsSuite" parallel="none">
+	<test name="OpenTapsLeads">
+		<classes>
+			<class name="testcases.TC001_Login" />
+			<class name="testcases.TC02_CreateLead" />
+			<class name="testcases.TC03_EditLead" />
+			<class name="testcases.TC04_DeleteLead" />
+			<class name="testcases.TC05_MergeLead" />
+		</classes>
+	</test> <!-- OpenTapsLeads -->
+</suite> <!-- OpenTapsSuite -->
